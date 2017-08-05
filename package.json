@@ -1,0 +1,21 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fis-conf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"fis3 server start && fis3 release debug -wL",
+    "release":"fis3 release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qcgm1978/PSG.git"
+  },
+  "author": "Zhanghl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qcgm1978/PSG/issues"
+  },
+  "homepage": "https://github.com/qcgm1978/PSG#readme"
+}
