@@ -4,7 +4,7 @@
 #C30 - hover on current link left sub nav
 
 /*****BACKGROUND****/
-.solarsys #bkg_layer {background: transparent url(../images/solarSystem.jpg) no-repeat center top;}
+.solarsys #bkg_layer {background: transparent url(../../images/solarSystem.jpg) no-repeat center top;}
 #leftnav {
 	background-image:url(../images/ln_solarsys_off.png);
 	background-repeat:repeat;

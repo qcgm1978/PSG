@@ -35,7 +35,7 @@ True Gray
 /******
 BACKGROUND IMAGES
 ******/
-body{background:url(../images/tiled_bg_stars.jpg) repeat;}
+body{background:url(../../images/tiled_bg_stars.jpg) repeat;}
 .tab-off {background:url(../images/tab-general-off.png) no-repeat scroll left top transparent;}
 .tab-on {background:url(../images/tab-general-on.png) no-repeat scroll left top transparent;}
 li.tab1-off {background:url(../images/tab1-off.png) no-repeat scroll left top transparent;}
@@ -98,7 +98,7 @@ width:272px;
 margin:28px 0 0 35px;
 }
 #nasahead #srchField {
-	background:url("../images/header-searchinputbox.gif") no-repeat scroll 0 50% transparent;
+	background:url("../../images/header-searchinputbox.gif") no-repeat scroll 0 50% transparent;
 	border:0 solid #00FF00;
 	display:block;
 	float:left;
