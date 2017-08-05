@@ -1,0 +1,86 @@
+/**** COLORS
+
+#AF3C00 - hover on top nav and hover/ current on left nav 
+#C30 - hover on current link left sub nav
+
+/*****BACKGROUND****/
+.solarsys #bkg_layer {background: transparent url(../images/solarSystem.jpg) no-repeat center top;}
+#leftnav {
+	background-image:url(../images/ln_solarsys_off.png);
+	background-repeat:repeat;
+	background-position:left top;
+	}
+
+
+.solarsys #rightcontent h2, .solarsys #quickLinks h2{
+	border-bottom-color: #AF3C00;
+}
+.solarsys #singlecolumn div.twocol div.urone div.newfeat2, 
+.solarsys #rightcontent div.twocol div.urone div.newfeat2 {
+	position:relative;
+	color:#fff;
+	background: transparent url(../images/featureSolarsys_bkg.gif) 0px 0px repeat;
+	margin:0px 0px 5px -15px;
+	padding:0px 10px 15px 10px;
+	border-bottom:1px solid #003557;
+	}
+
+.solarsys #singlecolumn .twocol .urone div.newfeat2 h2, 
+.solarsys #rightcontent .twocol .urone div.newfeat2 h2 {
+	background: transparent url(../images/h2_featuretopSolarsys.gif) 0px 0px repeat-x;
+	border-bottom:0px;
+	font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;
+	color:#fff;
+	line-height:16px;
+	margin:0 -10px 2px -10px;
+	padding:7px 0px 7px 10px;
+	font-size:14px;
+	font-weight:bold;
+} 
+
+.solarsys #leftcontent div.fact {
+	background: transparent url(../images/featureSolarsys_bkg.gif) 0px 0px repeat;
+	border-bottom:1px solid #793500;
+	}
+
+.solarsys #leftcontent div.fact h3 {
+	background: transparent url(../images/h2_featuretopSolarsys.gif) 0px 0px repeat-x;
+	}
+#solarsys #headimage #banners {
+	background-image: url(../images/bnnr_solarsys.png);
+	display:block;
+	margin-left:auto;
+	width:952px;
+}
+.solarsys #headimage #banners {
+	background-image: url(../images/bnnr_main_solarsys.png);
+	display:block;
+	margin-left:auto;
+	width:952px;
+}
+.solarsys #nasafoot {border-top:8px solid #AF3C00;}
+
+/**** TOP MENU****/
+.solarsys li#solarsys .sub a{background-image:none;}		
+.solarsys li#solarsys a{background: transparent url(../images/solarsys_bgnav.png) repeat center center;}	
+.solarsys #menu li:hover#solarsys ul.sub li a:hover, .solarsys #menu li:hover#solarsys ul.sub li a.flyDown:hover, .solarsys #menu li:hover#solarsys ul.sub li a.fly:hover, .solarsys #menu #solarsys li:hover a.flyDown, .solarsys #menu li#solarsys li:hover li:hover a.flyDown,  .solarsys #menu li#solarsys li:hover li:hover li:hover a.flyDown, .solarsys #menu li#solarsys li:hover li:hover li:hover li:hover a.flyDown, .solarsys #menu li#solarsys li:hover .subDown li:hover
+	{
+	background-color:#AF3C00; 
+}
+	
+.solarsys #menu .sub li:hover#solarsys .subDown {border:1px solid #5c731e; }	
+
+/**** LEFT NAV ***/
+
+#leftnav a:hover {background: #AF3C00;}
+/*.solarsys #leftnav ul {background:url(../images/ln_solarsys_off.png) repeat;} */ /*higlights .lnhighlightson #lnhighlights a*/
+.lnpeopleon #lnpeople a, .lnprojectson #lnprojects a, .lnpublicationon #lnpublication a, .lnhighlightson #lnhighlights a, .lncalendaron #lncalendar a,.lnawardson #lnawards a, .lnfaqon #lnfaq a, .lnfouron #lnfour a, lnfiveon #lnfive a, .lnsixon #lnsix a,  .lneighton #lneight a,  .snstaffon #leftnav #snstaff a, .snmgmton #leftnav #snmgmt a, .snoneon #leftnav #snone a, .sntwoon #leftnav #sntwo a, .snthreeon #leftnav  #snthree a, .snfouron #leftnav #snfour a, .snfiveon #leftnav #snfive a, .lnnine-one-on #lnnine1 a, .lnnine-two-on #lnnine2 a, .lnnine-three-on #lnnine3 a, .lnnine-four-on #lnnine4 a, .lnnine-five-on #lnnine5 a, .lnnine-six-on #lnnine6 a, .lnnine-seven-on #lnnine7 a, .lnnine-eight-on #lnnine8 a, .lnnine-nine-on #lnnine9 a, .lnnine-ten-on #lnnine10 a, /* ADMIN */ .lnadminon #lnadmin a.a_open,  .snadminspsouseron #leftnav #snadminspsouser a, .snadminspsouserlogon #leftnav #snadminspsouserlog a, .snAdminSectionon #leftnav #snAdminSection a, .snadminlocalnews #leftnav #snadminlocalnews a, .snadminHighlightprwf #leftnav #snadminHighlightprwf a,  .snadminHighlightpres #leftnav #snadminHighlightpres a, .snadminHighlightreport #leftnav #snadminHighlightreport a, .snadminpublication #leftnav #snadminpublication a, .snadmincalendar #leftnav #snadmincalendar a, .snadminprojecton #leftnav #snadminproject a, .snadminpersonon #leftnav #snadminperson a, .snadminroleson #leftnav #snadminroles a, .snadminrton #leftnav #snadminrt a, .snbookmarkon #leftnav #snbookmark a, .snbookmarkqon #leftnav #snbookmarkq a, .snadmincareeron #leftnav #snadminCareer a, .snadmincareertypeon #leftnav #snadminCareerOpportunityType a, .snadminfaq #leftnav #snadminfaq a, .snadminfaqtype #leftnav #snadminfaqtype a, .snadmingroupon #leftnav #snadminGroup a, .snadmingrouptypeon #leftnav #snadminGroupType a, .snadmintechfacilityon #leftnav #snadminTechFacility a, .snadminfbon #leftnav #snadminfb a, .snadminuseron #leftnav #snadminuser a, .snadminuserroleon #leftnav #snadminuserrole a, .snadminadwardon #leftnav #snadminaward a, .snadminawardtypeon #leftnav #snadminawardtype a, .snadminawardhowtoon #leftnav #snadminawardhowto a, .lncommenton #lncomment a, .lnloginon #lnlogin a, .snadmincvon #leftnav #snadmincv a{ 
+	color:#FFFFFF;
+	background:  #AF3C00 ;
+}
+
+/** hover on current left nav will have a slight highlight: **/
+
+.snoneon #leftnav li#snone a:hover, .sntwoon #leftnav li#sntwo a:hover, .snthreeon #leftnav li#snthree a:hover, .snfouron #leftnav li#snfour a:hover, .snfiveon #leftnav li#snfive a:hover, .snsixon #leftnav li#snsix a:hover, .snsevenon #leftnav li#snseven a:hover, .sneighton #leftnav li#sneight a:hover, .snnineon #leftnav li#snnine a:hover, .sntenon #leftnav li#snten a:hover, .sneleveneon #leftnav li#sneleven a:hover, .sntwelveon #leftnav li#sntwelve a:hover, .snthirteenon #leftnav li#snthirteen a:hover, .snfourteenon #leftnav li#snfourteen a:hover, .snfifteenon #leftnav li#snfifteen a:hover, .snbookmarkon #leftnav li#snbookmark a:hover, .snbookmarkqon #leftnav li#snbookmarkq a:hover, .snAdminSectionon #leftnav li#snAdminSection a:hover, .snadminuseron #leftnav li#snadminuser a:hover, .snadminuserroleon #leftnav li#snadminuserrole a:hover, .snadminroleson #leftnav li#snadminroles a:hover, .snadminprojecton #leftnav li#snadminproject a:hover, .snadminrton #leftnav li#snadminrt a:hover, .snadminfbon #leftnav li#snadminfb a:hover, .snadminpersonon #leftnav li#snadminperson a:hover, .snadminoveron #leftnav li#snadminover a:hover, .snmgmton #leftnav li#snmgmt a:hover, .snactivityon #leftnav li#snactivity a:hover, .snstaffon #leftnav li#snstaff a:hover,.snadminfaq #leftnav li#snadminfaq a:hover,.snadminfaqtype #leftnav li#snadminfaqtype a:hover, .snadminHighlightprwf #leftnav li#snadminHighlightprwf a:hover, .snadminHighlightpres #leftnav li#snadminHighlightpres a:hover, .snadminHighlightreport #leftnav li#snadminHighlightreport a:hover, .snadminlocalnews #leftnav li#snadminlocalnews a:hover{
+	background:#C30 url(../images/smallminus_active.gif) 22px 6px no-repeat;
+	}
