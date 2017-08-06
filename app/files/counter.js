@@ -1,3 +1,4 @@
+// alert(2)
 var sc_width = screen.width;
 var sc_height = screen.height;
 var sc_referer = "" + document.referrer;
@@ -251,7 +252,7 @@ var _sc_apply_mar_2017_fixes = _sc_project_int == 4124138 || _sc_project_int == 
         "duckduckgo": null,
         "ask.com": ["q", "QUERYT"],
         "mail.ru": ["words"],
-        "sogou": ["q", "query"]
+        // "sogou": ["q", "query"]
     };
     var _2b = {
         "fb": ["facebook.com", "fb.me"],
